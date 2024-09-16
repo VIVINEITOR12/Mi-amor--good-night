@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent; /* Fondo transparente */
+}
+
+iframe {
+    border: none; /* Sin bordes en el iframe */
+    width: 200px; /* Ajusta el tamaño a tu preferencia */
+    height: 200px;
+    pointer-events: none; /* Deshabilita clics en el iframe */
+}
+
+p {
+    font-size: 36px; /* Tamaño del texto */
+    font-family: 'Pacifico', cursive; /* Fuente Pacifico */
+    background: linear-gradient(to right, #8e44ad, #f1c40f); /* Gradiente de morado a amarillo */
+    -webkit-background-clip: text; /* Hace que el texto use el fondo */
+    -webkit-text-fill-color: transparent; /* Hace que el texto sea transparente */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra para que se vea más bonito */
+    margin-top: 20px; /* Espacio entre el GIF y el texto */
+    text-align: center; /* Alineación del texto */
+}
+
+.emoji {
+    font-size: 36px; /* Tamaño de los emojis */
+    color: inherit; /* Hereda el color del texto */
+    background: none; /* Sin fondo para los emojis */
+    -webkit-background-clip: none; /* Sin recorte de fondo para los emojis */
+    -webkit-text-fill-color: initial; /* Color inicial para los emojis */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px; /* Espacio entre el texto y el botón */
+    background-color: #8e44ad; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none;
+    border-radius: 5px; /* Bordes redondeados del botón */
+}
